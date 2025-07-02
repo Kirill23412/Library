@@ -1,7 +1,7 @@
 # Library
 Библиотека на C#
 Класс Book:
-
+```C#
    internal class Book
  {
      public string TitleBook { get; set; }
@@ -14,8 +14,9 @@
      }
 
  }
-
+```
  Класс Author:
+ ```C#
    internal class Author
 {
     public string Name { get; set; }
@@ -24,8 +25,9 @@
         this.Name = name;
     }
 }
-
+```
 Класс Publication:Author:
+```C#
    internal class Publication:Author
  {
      public int EditionNumber { get; set; }
@@ -36,9 +38,9 @@
          Year = year;
      }
  }
-
+```
  Класс Bible:
- 
+ ```C#
     internal class Bible
  {
      public int count = 0;
@@ -59,8 +61,9 @@
          
      }
  }
-
+```
  Класс Librian:
+ ```C#
    internal class Librian
 {
     public string Name { get; set; }
@@ -72,8 +75,10 @@
     }
 
 }
+```
 
 Класс Reader:
+```C#
   internal class Reader
 {
     public int g = 0;
@@ -95,8 +100,9 @@
 
     }
 }
-
+```
 Файл Form1:
+```C#
    public int g = 0;
  public int b = 0;
  Reader[] read = new Reader[100];
@@ -324,4 +330,5 @@
 
      }
  }
+```
 ![image](https://github.com/user-attachments/assets/4102e869-54e4-4eb6-a595-2612a90ff114)
