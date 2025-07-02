@@ -332,3 +332,8 @@
  }
 ```
 ![image](https://github.com/user-attachments/assets/4102e869-54e4-4eb6-a595-2612a90ff114)
+
+
+use - case diagram:
+![image](https://github.com/user-attachments/assets/631fe104-18e1-437c-beb7-97283eb17e22)
+
